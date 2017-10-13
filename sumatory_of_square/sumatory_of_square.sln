@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "sumatory_of_square", "sumatory_of_square\sumatory_of_square.pyproj", "{F6C7A837-7B4F-4E96-BF7F-D82BBF569254}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6C7A837-7B4F-4E96-BF7F-D82BBF569254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C7A837-7B4F-4E96-BF7F-D82BBF569254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE70285D-3950-478D-AAA6-99801CCAC097}
+	EndGlobalSection
+EndGlobal
