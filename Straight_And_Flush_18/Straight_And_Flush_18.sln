@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Straight_And_Flush_18", "Straight_And_Flush_18\Straight_And_Flush_18.pyproj", "{78E6A1FA-6886-4242-BEDB-7875930925EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78E6A1FA-6886-4242-BEDB-7875930925EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E6A1FA-6886-4242-BEDB-7875930925EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D002EBC6-CE80-475E-9B58-81E5CACCA5BE}
+	EndGlobalSection
+EndGlobal
