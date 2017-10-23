@@ -1,25 +1,35 @@
+
 # -----------
 # User Instructions
 # 
-# Define a function, kind(n, ranks).
+# Define a function, two_pair(ranks).
+
+def two_pair(ranks):
+    """If there are two pair, return the two ranks as a
+    tuple: (highest, lowest); otherwise return None."""
+    # Your code here.
+    
+    pair = kind(2, ranks)
+    lowpair = kind(2, list(reversed(kinds)))
+
+    if pair and lowpair != pair:
+        return(pair, lowpair)
+    else:
+        return None
 
 def kind(n, ranks):
     """Return the first rank that this hand has exactly n of.
     Return None if there is no n-of-a-kind in the hand."""
-    # Your code here.
     for r in ranks:
-        #count how many times is an element in a list
-        if ranks.count(r) == n:
-            return r
-        
+        if ranks.count(r) == n: return r 
     return None
-    
+
 def test():
     "Test cases for the functions in poker program."
     sf = "6C 7C 8C 9C TC".split() # Straight Flush
     fk = "9D 9H 9S 9C 7D".split() # Four of a Kind
     fh = "TD TC TH 7C 7D".split() # Full House
-    tp = "5S 5D 9H 9C 6S".split() # Two pairs
+    tp = "TD 9H TH 7C 3S".split() # Two Pair
     fkranks = card_ranks(fk)
     tpranks = card_ranks(tp)
     assert kind(4, fkranks) == 9
